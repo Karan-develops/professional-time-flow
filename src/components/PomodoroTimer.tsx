@@ -1,3 +1,5 @@
+"use client"
+
 import { useTimerContext } from "@/contexts/TimerContext";
 import React, { memo, useCallback, useEffect, useRef, useState } from "react";
 import { Button } from "./ui/button";
@@ -18,6 +20,9 @@ import {
 } from "./ui/tooltip";
 import { AnimatePresence, motion } from "framer-motion";
 import { formatTime } from "@/utils/format";
+import DevTools from "./DevTools";
+import SettingsModal from "./SettingsModal";
+import PomodoroMiniWidget from "./PomodoroMiniWidget";
 
 type TimerMode = "focus" | "shortBreak" | "longBreak";
 

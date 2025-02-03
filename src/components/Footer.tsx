@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-gray-800 bg-opacity-30 backdrop-filter backdrop-blur-lg border-t border-gray-700 py-4 mt-8">
       <div className="max-w-5xl mx-auto px-4 flex justify-between items-center">
         <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} Time Flow Task Manager. All rights
+          © {new Date().getFullYear()} Time Focus Task Manager. All rights
           reserved. By Karan Aggarwal
         </p>
         <Link
